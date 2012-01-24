@@ -17,4 +17,4 @@ nmap . .`[
 set ignorecase
 set smartcase
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/target/*,*/.idea/*,*/.settings/*,*.class
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/target/*,*/.idea/*,*/.settings/*,*/test-output/*,*/.scala_dependencies/*,*.class
