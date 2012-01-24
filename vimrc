@@ -11,6 +11,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'akhil/scala-vim-bundle'
+Bundle 'msmorgan/vim-flex'
 
 Bundle 'closetag.vim'
 
