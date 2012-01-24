@@ -8,10 +8,10 @@ if ! [[ -d ~/.vim/bundle/vundle ]]; then
   git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 fi
 
-if ! [[ -d ~/.vim/bundle/vim-matschaffer ]]; then
-  git clone http://github.com/matschaffer/vim-matschaffer.git ~/.vim/bundle/vim-matschaffer
+if ! [[ -d ~/.vim/bundle/vim-mpilquist ]]; then
+  git clone http://github.com/mpilquist/vim-mpilquist.git ~/.vim/bundle/vim-mpilquist
 fi
 
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
 
-ln -s ~/.vim/bundle/vim-matschaffer/vimrc ~/.vimrc
+ln -s ~/.vim/bundle/vim-mpilquist/vimrc ~/.vimrc
