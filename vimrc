@@ -14,9 +14,10 @@ Bundle 'akhil/scala-vim-bundle'
 Bundle 'msmorgan/vim-flex'
 
 Bundle 'closetag.vim'
-
 Bundle 'VimClojure'
 
 Bundle 'mpilquist/vim-mpilquist'
+
+Bundle 'millermedeiros/vim-statline'
 
 filetype plugin indent on
