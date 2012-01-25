@@ -16,4 +16,5 @@ map ; :
 nnoremap ;; ;
 
 " removes any empty spaces at end of the line when saving
-autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
+"autocmd BufRead * if ! &bin | silent! %s/\s\+$//ge | silent! :0 | endif
+autocmd BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
