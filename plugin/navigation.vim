@@ -18,3 +18,7 @@ set ignorecase
 set smartcase
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/target/*,*/.idea/*,*/.settings/*,*/test-output/*,*/.scala_dependencies,*.class
+
+let g:ctrlp_by_filename = 0
+let g:ctrlp_dotfiles = 1
+
