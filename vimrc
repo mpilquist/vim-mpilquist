@@ -19,5 +19,8 @@ Bundle 'VimClojure'
 Bundle 'mpilquist/vim-mpilquist'
 
 Bundle 'millermedeiros/vim-statline'
+Bundle 'scrooloose/syntastic.git'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'sukima/xmledit'
 
 filetype plugin indent on
