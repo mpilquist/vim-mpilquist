@@ -1,6 +1,8 @@
 set nocompatible
 filetype on
 filetype off
+set hlsearch
+set incsearch
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
