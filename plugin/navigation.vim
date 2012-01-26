@@ -5,6 +5,7 @@ set foldlevelstart=99
 
 " Search as you type
 set incsearch
+set hlsearch
 
 " More bash-like tab completion
 set wildmode=longest,list,full
