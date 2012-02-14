@@ -18,3 +18,6 @@ nnoremap ;; ;
 " removes any empty spaces at end of the line when saving
 "autocmd BufRead * if ! &bin | silent! %s/\s\+$//ge | silent! :0 | endif
 autocmd BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
+
+" converts tabs to spaces when saving
+autocmd BufWrite * if ! &bin | silent! retab | endif
