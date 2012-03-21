@@ -8,10 +8,6 @@ Forked from https://github.com/matschaffer/vim-matschaffer and modified for my c
 
 NOTE: This will move your existing .vimrc to .vimrc.bak and create a new .vimrc
 
-    bash < <(curl -Ls https://github.com/mpilquist/vim-mpilquist/raw/master/scripts/setup.sh)
+ALSO NOTE: This assumes your default Vim is available from the `vi` command. If this is not the case, run `:BundelInstall` inside vim after installing.
 
-Once in vim run
-
-    :BundleInstall
-
-Then restart vim and you'll be good to go.
+    bash < <(curl -Ls https://github.com/matschaffer/vim-matschaffer/raw/master/scripts/setup.sh)
