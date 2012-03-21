@@ -11,3 +11,6 @@ set directory=~/.vim/backup
 " Enable mouse support
 set ttymouse=xterm2
 set mouse=a
+
+" Set current directory to the directory of file in active buffer
+set autochdir

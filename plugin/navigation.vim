@@ -1,6 +1,4 @@
-" Fold by syntax, start full open
 set foldenable
-set foldmethod=syntax
 set foldlevelstart=99
 
 " Search as you type
