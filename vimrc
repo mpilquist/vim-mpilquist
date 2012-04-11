@@ -22,7 +22,14 @@ Bundle 'mpilquist/vim-mpilquist'
 Bundle 'millermedeiros/vim-statline'
 Bundle 'scrooloose/syntastic.git'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
 Bundle 'sukima/xmledit'
 Bundle 'leshill/vim-json'
+Bundle 'Townk/vim-autoclose'
+Bundle 'msanders/snipmate.vim'
+Bundle 'mileszs/ack.vim'
+" Disabled due to bugs where multiple minibugexplorer windows are opened when
+" quitting buffers
+" Bundle 'fholgado/minibufexpl.vim'
 
 filetype plugin indent on

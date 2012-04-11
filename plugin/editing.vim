@@ -21,3 +21,17 @@ autocmd BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
 " converts tabs to spaces when saving
 autocmd BufWrite * if ! &bin | silent! retab | endif
+
+" toggle paste mode (to paste properly indented text)
+" http://www.terminally-incoherent.com/blog/2012/03/26/how-to-configure-vim/
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
+" disable swap/backup files
+" http://www.terminally-incoherent.com/blog/2012/03/26/how-to-configure-vim/
+set noswapfile
+set nobackup
+set nowb
+
+set clipboard=unnamed
