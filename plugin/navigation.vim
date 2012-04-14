@@ -20,6 +20,8 @@ nmap . .`[
 set ignorecase
 set smartcase
 
+nnoremap <leader>a :Ack!<space>
+
 set wildignore+=*/.hg/*,*/.svn/*,*/tmp/cache/*,*/target/*,*/.idea/*,*/.settings/*,*/test-output/*,*/.scala_dependencies,*.class
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
