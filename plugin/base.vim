@@ -18,3 +18,4 @@ set autochdir
 " press ; to issue commands in normal mode (no more shift holding)
 " http://www.terminally-incoherent.com/blog/2012/03/26/how-to-configure-vim/
 nnoremap ; :
+

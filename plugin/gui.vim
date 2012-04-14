@@ -1,2 +1,3 @@
 set guioptions=egmrt
-set guifont=Meslo\ LG\ M\ DZ:h12
+"set guifont=Consolas:h14
+set guifont=Inconsolata-dz\ for\ Powerline:h12
