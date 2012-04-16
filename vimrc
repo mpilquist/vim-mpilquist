@@ -22,7 +22,7 @@ Bundle 'mpilquist/vim-mpilquist'
 
 "Bundle 'millermedeiros/vim-statline'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'scrooloose/syntastic.git'
+"Bundle 'scrooloose/syntastic.git'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'sukima/xmledit'

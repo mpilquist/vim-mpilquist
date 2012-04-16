@@ -8,17 +8,17 @@ set showcmd
 set ruler
 
 " Show whitespace as unicode chars
-set listchars=tab:‣\ ,extends:…,precedes:…,nbsp:˖
+set listchars=tab:‣\ ,extends:…,precedes:…,nbsp:˖,trail:‿
 set list
 
 augroup trailing
-    au!
-    au InsertEnter * :set listchars-=trail:‿
-    au InsertLeave * :set listchars+=trail:‿
+   au!
+   au InsertEnter * :set listchars-=trail:‿
+   au InsertLeave * :set listchars+=trail:‿
 augroup END
 
-" Mark the 81st column magenta
+" Mark the 141st column magenta
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
-match OverLength /\%81v./
+match OverLength /\%141v./
 
 colorscheme solarized
