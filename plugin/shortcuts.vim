@@ -12,3 +12,6 @@ func! SynStack()
   end
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endf
+
+" Rainbow parens
+nmap <F3> :RainbowParenthesesToggleAll<CR>

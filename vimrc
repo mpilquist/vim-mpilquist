@@ -27,5 +27,9 @@ Bundle 'leshill/vim-json'
 Bundle 'Townk/vim-autoclose'
 Bundle 'msanders/snipmate.vim'
 Bundle 'mileszs/ack.vim'
+Bundle 'gregsexton/gitv'
+Bundle 'vim-scripts/copy-as-rtf'
+Bundle 'vim-scripts/camelcasemotion'
+Bundle 'https://github.com/kien/rainbow_parentheses.vim'
 
 filetype plugin indent on
