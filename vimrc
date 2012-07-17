@@ -30,6 +30,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'gregsexton/gitv'
 Bundle 'vim-scripts/copy-as-rtf'
 Bundle 'vim-scripts/camelcasemotion'
-Bundle 'https://github.com/kien/rainbow_parentheses.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'derekwyatt/vim-sbt'
 
 filetype plugin indent on

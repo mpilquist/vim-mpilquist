@@ -57,7 +57,7 @@ set ttymouse=xterm2
 set mouse=a
 
 " Set current directory to the directory of file in active buffer
-set autochdir
+" set autochdir
 
 " Use system clipboad by default
 set clipboard=unnamed
