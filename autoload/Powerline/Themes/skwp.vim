@@ -12,12 +12,8 @@ let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
     \ , 'fugitive:branch'
     \ , 'fileinfo'
     \ , 'flags.mod'
-    \ , 'syntastic:errors'
     \ , Pl#Segment#Truncate()
     \ , Pl#Segment#Split()
-    \ , 'sass:status'
-    \ , 'rvm:string'
-    \ , 'virtualenv:statusline'
     \ , 'fileformat'
     \ , 'fileencoding'
     \ , 'filetype'
@@ -46,7 +42,7 @@ let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
     \ , Pl#Segment#Split()
   \ ),
   \
-  \ Pl#Theme#Buffer('ft_help'
+  \ Pl#Theme#Buffer('bt_help'
     \ , ['static_str.name', 'Help']
     \ , 'filename'
     \ , Pl#Segment#Truncate()
