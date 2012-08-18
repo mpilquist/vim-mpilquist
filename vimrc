@@ -32,5 +32,6 @@ Bundle 'vim-scripts/copy-as-rtf'
 Bundle 'vim-scripts/camelcasemotion'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'derekwyatt/vim-sbt'
+Bundle 'Shougo/neocomplcache'
 
 filetype plugin indent on

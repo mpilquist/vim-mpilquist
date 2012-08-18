@@ -77,3 +77,9 @@ command! -bang WA wa<bang>
 command! -bang Wq wq<bang>
 command! -bang WQ wq<bang>
 
+" Disable startup message
+set shortmess+=I
+
+" Enable NeoComplCache
+let g:neocomplcache_enable_at_startup = 1
+
