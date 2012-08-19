@@ -52,6 +52,11 @@ set autoread
 
 set ttyfast
 
+" Speed up Esc delay
+set ttimeout
+set ttimeoutlen=20
+set notimeout
+
 " Enable mouse support
 set ttymouse=xterm2
 set mouse=a
