@@ -34,5 +34,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'derekwyatt/vim-sbt'
 Bundle 'Shougo/neocomplcache'
 Bundle 'majutsushi/tagbar'
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
 
 filetype plugin indent on
