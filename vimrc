@@ -16,7 +16,10 @@ Bundle 'sjl/gundo.vim'
 
 Bundle 'mpilquist/vim-mpilquist'
 
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'derekwyatt/vim-scala'
+
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'sukima/xmledit'
