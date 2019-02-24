@@ -6,29 +6,26 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 
-Bundle 'gmarik/vundle'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-fugitive'
+Plugin 'gmarik/vundle'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
 
-Bundle 'closetag.vim'
-Bundle 'sjl/gundo.vim'
+Plugin 'closetag.vim'
+Plugin 'sjl/gundo.vim'
 
-Bundle 'mpilquist/vim-mpilquist'
+Plugin 'jshep3000/vim-jsheppard'
 
-Bundle 'derekwyatt/vim-scala'
-
-Bundle 'vim-airline/vim-airline'
-Bundle 'vim-airline/vim-airline-themes'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'sukima/xmledit'
-Bundle 'leshill/vim-json'
-Bundle 'Townk/vim-autoclose'
-Bundle 'mileszs/ack.vim'
-Bundle 'vim-scripts/copy-as-rtf'
-Bundle 'vim-scripts/camelcasemotion'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'Shougo/neocomplcache'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/nerdtree'
+Plugin 'sukima/xmledit'
+Plugin 'leshill/vim-json'
+Plugin 'Townk/vim-autoclose'
+Plugin 'mileszs/ack.vim'
+Plugin 'vim-scripts/copy-as-rtf'
+Plugin 'vim-scripts/camelcasemotion'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'Shougo/neocomplcache'
 
 filetype plugin indent on
